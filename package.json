@@ -1,16 +1,18 @@
 {
-  "name": "00-practice-app",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
+
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "fs": "^0.0.1-security",
     "os": "^0.1.2",
     "path": "^0.12.7",
+
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.1",
