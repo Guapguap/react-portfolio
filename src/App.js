@@ -3,9 +3,7 @@ import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <div className="bucket-app">
       <Portfolio />
-    </div>
   );
 }
 
