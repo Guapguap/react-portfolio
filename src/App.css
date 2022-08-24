@@ -1,20 +1,347 @@
+/* general styling  */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+/* -------------------- */
 
-.about-me{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+/* Header */
+
+.navbar {
+  background-color: #222222;
+  margin-bottom: 40px;
 }
+
+.span-style {
+  font-size: 20px;
+  color: white;
+}
+/* END Header */
+
+
+/* About Page */
 
 .pfp {
+  height: 200px;
+  border: solid 4px rgb(109, 41, 4);
+  box-shadow: 10px 10px 5px #111111;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  display: flex;
-  justify-content: center;
-  max-height: 400px;
+.col-sm-12 {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.about-me-text {
+  text-align: center;
+}
+
+/* END About Page */
+
+#header-logo {
+  height: 50px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.jumbotron-home {
+  flex-wrap: wrap;
+  align-content: center;
+  background:rgba(255, 255, 255, 0);
+  margin-top: 15%;
+}
+
+.jumbotron-fluid {
+  padding: 0px;
+}
+
+.jumbotron {
+  flex-wrap: wrap;
+  align-content: center;
+  background:rgba(255, 255, 255, 0);
+  margin-bottom: 0%;
+}
+
+#logo {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#front-menu {
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  /* background-color: gray; */
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color: #222222;
+  border: none;
+}
+
+button:hover {
+  color: #90e9c6;
+}
+
+h6 {
+  color: #90e9c6;
+}
+
+.separator {
+  display: inline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 
 }
 
+a:hover {
+  color: #90e9c6;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+
+}
+
+#resume {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume {
+  width: 50%;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+#weatherEats-logo {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15.5px;
+  right: 0;
+  height: 100%;
+  width: 90.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #78CAD8;
+
+  border-radius: 100%;
+}
+
+.weatherEats-container:hover .overlay {
+  opacity: .9;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.wE-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.wE-pic {
+  height:200px;
+  margin: 5px;
+  margin-bottom: 5px;
+}
+
+.LS-pic {
+  width:97%;
+  margin-bottom: 5px;
+}
+
+
+.footer-index {
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 1rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.p-footer {
+  font-size: .5rem;
+  margin-bottom:1px;
+}
+
+@media only screen and (max-width: 768px) {
+  #header-logo {
+      height: 80px;
+  }
+
+  .navbar {
+      background-color: #222222;
+  }
+
+  .separator {
+      display: none;
+  }
+
+  .menu-button {
+      font-size: 20px;
+      display: inline-block;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+  }
+
+  .wE-pic, .LS-pic {
+      display:none;
+  }
+
+  .col-sm-12 {
+    padding: 10px;
+  }
+
+  .about-me-text {
+    text-align: left;
+  }
+}
+
+.project-div {
+  height: 450px;
+  width:300px;
+  border: 2px solid white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #222222;  
+  float: left;
+  box-shadow: 0px 0px 35px 2px rgba(0,0,0,0.75);
+
+
+}
+
+.relative {
+  position: relative;
+}
+
+.project-icons {
+  position: absolute;
+  top: 380px;
+  left: 120px;
+
+  z-index: 1;
+}
+
+.project-icons-two {
+  position: absolute;
+  top: 380px;
+  left: 100px;
+
+  z-index: 1;
+}
+
+.project-img {
+  width: 100%;
+  margin-bottom: 10px
+}
+
+.projects-p {
+  font-size: 12px;
+}
+
+.projects-div {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;}
+
+.projects-icons {
+  font-size: 25px;
+  color:white;
+}
+
+.project-headline {
+  text-align: center;
+  color: #90e9c6;
+
+}
+
+.project-header {
+  text-align: center;
+  font-size: 15px;
+}
+
+.contact-icons {
+  font-size: 30px;
+  color:white;
+  margin-right: 5px;
+}
+
+.design-title {
+  text-align: center;
+
+}
+
+h4{
+  text-align: center;
+
+}
+
+.footer-icons {
+  font-size: 20px;
+  color:white;
+  margin-right: 2px;
+}
+
+.design-pic {
+  height: 250px;
+}
+
+.design-title {
+  margin-top: 20px;
+}
+
+.contact-container {
+  text-align: center;
+  margin-top: 10%;
+}
