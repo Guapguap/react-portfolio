@@ -2,16 +2,28 @@ import React from 'react';
 
 export default function About() {
     return(
-        <section className="about-me-container">
-        <section id="about-me" className="about-me">
-            <h2>About Me</h2>
-            
-            <img src="../../assets/images/pfp.JPG" alt="Picture of coder"/>
-            
-            <p>
-                My name is Alberto Londono and I have started my jounrey in coding. I am still exploring the many path careers within coding but Software Engineer appeals to me the most at the moment. I enjoy refining my skills on mini projects and seeing what else I can learn from it. Aside from my professional side, I enjoy anime, cooking for loved ones, and riding my skateboard.
-            </p>
-        </section>
-    </section>
+        
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <img id="profile-pic" className="pfp" src="../../assets/images/pfp.JPG" alt="The coder" />
+                        <br />
+                        <h3 className="about-me-text">Hello! I'm CJ</h3>
+                        <p className="about-me-text">I am a Full Stack Web Developer. I graduated from the Northwestern Coding Bootcamp in September 2022 and I have been working on front end web development and full stack projects. I am continously developing my skills through projects as a Freelancer.</p>
+                      
+                        <p className="about-me-text">During my years as a Chef, I developed a keen sense of time management, ability to work with a sense of urgency, and leadership skills.</p>
+
+                        <p className="about-me-text">
+                            When I'm not perfecting the art of
+                            coding or designing something, I am playing guitar, experimenting with new dishes for loved ones, watching anime, or
+                            playing on my pc or Nintendo Switch.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
     )
 }
