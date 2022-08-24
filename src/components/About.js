@@ -17,8 +17,7 @@ export default function About() {
                         <p className="about-me-text">
                             When I'm not perfecting the art of
                             coding or designing something, I am playing guitar, experimenting with new dishes for loved ones, watching anime, or
-                            playing on my pc or Nintendo Switch.</p>
-                        
+                            playing on my pc or Nintendo Switch.</p>                        
                     </div>
                 </div>
             </div>

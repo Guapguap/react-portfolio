@@ -19,13 +19,10 @@ export default function Header () {
                     <Link className="nav-link" to="/about">About Me </Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/projects">Web Development</Link>
+                    <Link className="nav-link" to="/projects">Projects</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/resume">Resume</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" to="/design">Design</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/contact">Contact Me</Link>
