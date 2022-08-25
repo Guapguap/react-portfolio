@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Take A Hike",
+        "image": "../assets/images/hike.jpg",
+        "github": "https://github.com/Guapguap/travel-project",
+        "link": "https://guapguap.github.io/travel-project/",
+        "tech": "JavaScript, HTML5, Bulma, Third Party API"
+    }
+]
