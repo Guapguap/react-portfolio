@@ -6,15 +6,11 @@
 This is a personal portfolio website built with React.js.
 
 # Table of Contents
-* [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
-* [Tests](#tests)
 * [Questions](#questions)
 
-# Installation:
-install
 # Usage: 
 Once on the deployed site, you can navigate to the corresponding pages listed on the top.
 # License:
@@ -23,8 +19,6 @@ Once on the deployed site, you can navigate to the corresponding pages listed on
 This application is covered by the MIT license. 
 # Contributors 
 Alberto Londono
-# Tests:
-
 # Questions:
 Github Profile: [Github Profile](https://github.com/Guapguap)
 <br>
