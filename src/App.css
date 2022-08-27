@@ -23,7 +23,7 @@
 /* About Page */
 
 .pfp {
-  height: 200px;
+  height: 300px;
   border: solid 4px rgb(109, 41, 4);
   box-shadow: 10px 10px 5px #111111;
   display: block;
@@ -36,7 +36,8 @@
   padding-right: 200px;
 }
 
-.about-me-text {
+.about-me-text,
+.project-text {
   text-align: center;
 }
 
@@ -278,8 +279,10 @@ ul {
 }
 
 .project-img {
-  width: 100%;
-  margin-bottom: 10px
+  display: flex;
+  width: 400px;
+  margin-bottom: 10px;
+
 }
 
 .projects-p {
@@ -311,7 +314,8 @@ ul {
   font-size: 15px;
 }
 
-.contact-icons {
+.contact-icons,
+.project-icon {
   font-size: 30px;
   color:white;
   margin-right: 5px;

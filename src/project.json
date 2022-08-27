@@ -6,5 +6,45 @@
         "github": "https://github.com/Guapguap/travel-project",
         "link": "https://guapguap.github.io/travel-project/",
         "tech": "JavaScript, HTML5, Bulma, Third Party API"
+    },
+    {
+        "id": 2,
+        "name": "Shelf Chef",
+        "image": "../assets/images/chef.jpg",
+        "github": "https://github.com/lact-chef/shelf-chef",
+        "link": "https://shelf-chef.herokuapp.com/",
+        "tech": "JavaScript, HTML5, Tailwind, MySQL, Sequelize, Express.js, Third Party API, Node.js"
+    },
+    {
+        "id": 3,
+        "name": "Weather App",
+        "image": "../assets/images/weather.jpg",
+        "github": "https://github.com/Guapguap/weather-app",
+        "link": "https://guapguap.github.io/weather-app/",
+        "tech": "JavaScript, HTML5, CSS3, Third Party API"
+    },
+    {
+        "id": 4,
+        "name": "Code Quiz",
+        "image": "../assets/images/quiz.jpg",
+        "github": "https://github.com/Guapguap/code-quiz",
+        "link": "https://guapguap.github.io/code-quiz/",
+        "tech": "JavaScript, HTML5, CSS3"
+    },
+    {
+        "id": 5,
+        "name": "E-Commerce",
+        "image": "../assets/images/e-commerce.png",
+        "github": "https://github.com/Guapguap/e-commerce",
+        "link": "https://github.com/Guapguap/e-commerce/blob/main/README.md",
+        "tech": "JavaScript, Express.js, Sequelize, and MySQL"
+    },
+    {
+        "id": 6,
+        "name": "Text Editor",
+        "image": "../assets/images/editor.jpg",
+        "github": "https://github.com/Guapguap/e-commerce",
+        "link": "https://github.com/Guapguap/e-commerce/blob/main/README.md",
+        "tech": "JavaScript, HTML5, CSS3, Express.js, Webpacks"
     }
 ]
