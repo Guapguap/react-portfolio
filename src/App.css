@@ -69,21 +69,6 @@
   margin-bottom: 0%;
 }
 
-#logo {
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#front-menu {
-  margin: auto;
-  width: 50%;
-  margin-top: 30px;
-  /* background-color: gray; */
-  text-align: center;
-}
-
 button {
   color: white;
   background-color: #222222;
@@ -134,30 +119,6 @@ ul {
   text-align: center;
 }
 
-#weatherEats-logo {
-  width: 100%;
-  border-radius: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 15.5px;
-  right: 0;
-  height: 100%;
-  width: 90.5%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #78CAD8;
-
-  border-radius: 100%;
-}
-
-.weatherEats-container:hover .overlay {
-  opacity: .9;
-}
-
 .overlay-text {
   color: white;
   font-size: 20px;
@@ -169,26 +130,6 @@ ul {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.wE-header {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 30px;
-}
-
-.wE-pic {
-  height:200px;
-  margin: 5px;
-  margin-bottom: 5px;
-}
-
-.LS-pic {
-  width:97%;
-  margin-bottom: 5px;
-}
-
 
 .footer-index {
   text-align: center;
@@ -228,10 +169,6 @@ ul {
       margin-left: 10px;
       margin-right: 10px;
       
-  }
-
-  .wE-pic, .LS-pic {
-      display:none;
   }
 
   .col-sm-12 {
