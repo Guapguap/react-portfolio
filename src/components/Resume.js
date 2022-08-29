@@ -24,7 +24,7 @@ export default function Resume() {
               </p>
 
               <h5>
-                <a href="../../assets/Londono_Resume.pdf" download>
+                <a href="../../assets/Alberto Londono Resume.pdf" download>
                   {" "}
                   Download Resume
                 </a>
